@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soraya By Clinic – Promos Navidad</title>
+
+    <meta name="description" content="La magia de la Navidad llegó a Soraya By Clinic. Más de 10.000 casos de éxito con 5 estrellas. Asesoramiento personalizado por WhatsApp.">
+
+    <!-- Meta Pixel Code -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src='https://connect.facebook.net/en_US/fbevents.js';
+      s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script');
+      fbq('init', '727852400368879');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=727852400368879&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #2c8c83;
+            --primary-dark: #22685f;
+            --text-main: #222;
+            --text-muted: #555;
+            --verify-blue: #1D9BF0;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: 'Inter', sans-serif;
+            background: #ffffff;
+            color: var(--text-main);
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+        }
+
+        header h2 {
+            margin: 0;
+            color: var(--primary);
+            font-weight: 700;
+            font-size: 22px;
+        }
+
+        .hero {
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 34px;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 18px;
+        }
+
+        .hero .sub {
+            font-size: 17px;
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+
+        .btn-whatsapp {
+            background: var(--primary);
+            color: #fff;
+            padding: 16px 34px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            animation: pulsoWhatsapp 1.5s infinite;
+            box-shadow: 0 8px 18px rgba(44,140,131,0.35);
+            margin-bottom: 18px;
+        }
+
+        .btn-whatsapp:hover {
+            background: var(--primary-dark);
+        }
+
+        @keyframes pulsoWhatsapp {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.06); }
+            100% { transform: scale(1); }
+        }
+
+        /* Badge verificado */
+        .verified-badge {
+            width: 20px;
+            height: 20px;
+            background: var(--verify-blue);
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 13px;
+            font-weight: bold;
+            color: #fff;
+            line-height: 1;
+        }
+
+        .stars {
+            font-size: 22px;
+            margin-bottom: 6px;
+        }
+
+        .success {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            border-top: 1px solid #eee;
+        }
+
+        .section h2 {
+            font-size: 28px;
+            color: var(--primary-dark);
+            margin-bottom: 14px;
+        }
+
+        .section p {
+            font-size: 22px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        footer {
+            text-align: center;
+            padding: 22px;
+            font-size: 13px;
+            color: #777;
+            border-top: 1px solid #eee;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 28px; }
+            .section h2 { font-size: 24px; }
+            .section p { font-size: 20px; }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>Soraya By Clinic</h2>
+</header>
+
+<section class="hero">
+    <h1>La magia de la Navidad llegó a Soraya 🎄</h1>
+
+    <p class="sub">
+        Háblanos por <strong>WhatsApp</strong> para recibir un asesoramiento 100% personalizado
+        y acceder a nuestras promociones exclusivas de Navidad.
+    </p>
+
+    <!-- Botón: mismo link, mismo pixel, ahora con eventos -->
+    <a class="btn-whatsapp"
+       href="https://api.whatsapp.com/send?phone=34722208711&text=Hola%20quiero%20info%20de%20las%20promos%20navide%C3%B1as"
+       target="_blank"
+       onclick="fbq('trackCustom','ClickWhatsApp'); fbq('track','Contact');">
+        Hablar por WhatsApp
+        <span class="verified-badge">✓</span>
+    </a>
+
+    <div class="stars">⭐⭐⭐⭐⭐</div>
+    <div class="success">+10.000 casos de éxito</div>
+</section>
+
+<section class="section">
+    <h2>✨ Promos exclusivas de Navidad ✨</h2>
+    <p>Tu Bienestar, Nuestra Prioridad 💚</p>
+</section>
+
+<footer>
+    Soraya By Clinic • 2025 – Todos los derechos reservados
+</footer>
+
+</body>
+</html>
