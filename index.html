@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Soraya By Clinic – Promos de Verano</title>
+    <title>Soraya By Clinic – Beneficios especiales</title>
 
-    <meta name="description" content="Verano en Soraya. Beneficios especiales hasta 70% OFF. Asesoramiento personalizado por WhatsApp.">
+    <meta name="description" content="Cuidarte también es parte de esta temporada. Beneficios especiales hasta 70% OFF. Asesoramiento personalizado por WhatsApp.">
 
     <!-- Meta Pixel Code -->
     <script>
@@ -79,6 +79,13 @@
             font-size: 18px;
             font-weight: 600;
             color: var(--primary);
+            margin-bottom: 14px;
+        }
+
+        .promo-text {
+            font-size: 16px;
+            font-weight: 400;
+            color: var(--text-muted);
             margin-bottom: 30px;
         }
 
@@ -169,26 +176,6 @@
             margin-bottom: 10px;
         }
 
-        /* Sección promos */
-        .section {
-            padding: 50px 20px;
-            text-align: center;
-            border-top: 1px solid #eee;
-        }
-
-        .section h2 {
-            font-size: 28px;
-            font-weight: 700;
-            color: var(--primary-dark);
-            margin-bottom: 14px;
-        }
-
-        .section p {
-            font-size: 22px;
-            font-weight: 700;
-            color: var(--primary);
-        }
-
         footer {
             text-align: center;
             padding: 22px;
@@ -200,8 +187,7 @@
         @media (max-width: 600px) {
             .hero h1 { font-size: 28px; }
             .sub { font-size: 16px; }
-            .section h2 { font-size: 24px; }
-            .section p { font-size: 20px; }
+            .promo-text { font-size: 15px; }
             .logo { max-width: 160px; }
         }
     </style>
@@ -215,16 +201,20 @@
 
 <section class="hero">
     <h1 class="title-animated">
-        Verano en Soraya ☀️
+        Cuidarte también es parte de esta temporada
     </h1>
 
     <p class="sub off-animated">
         Beneficios especiales hasta <strong>70% OFF</strong>
     </p>
 
+    <p class="promo-text">
+        Disfruta de promos exclusivas
+    </p>
+
     <div class="cta-container">
         <a class="btn-whatsapp"
-           href="https://wa.me/34602070932?text=Quiero%20saber%20mas%20sobre%20la%20promo%20verano"
+           href="https://wa.me/34602070932?text=Quiero%20saber%20mas%20sobre%20los%20beneficios"
            target="_blank"
            rel="noopener noreferrer"
            onclick="fbq('trackCustom','ClickWhatsApp'); fbq('track','Contact');">
@@ -237,14 +227,9 @@
     <div class="success">+10.000 casos de éxito</div>
 </section>
 
-<section class="section">
-    <h2>✨ Promos exclusivas de verano ✨</h2>
-    <p>Tu Bienestar, Nuestra Prioridad 💚</p>
-</section>
-
 <footer>
     Soraya By Clinic • 2026 – Todos los derechos reservados
 </footer>
 
 </body>
-</html> 
+</html>
